@@ -44,7 +44,7 @@ export function App() {
 
       <div className={styles.wrapper}>
         <Sidebar />
-        
+
         <main>
           {posts.map(post => {
             return (
@@ -57,7 +57,7 @@ export function App() {
             )
           })}
         </main>
-      </div>      
+      </div>
     </div>
   )
 }
